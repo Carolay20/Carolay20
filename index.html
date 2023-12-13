@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Landing Page</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div>
+                <img src="img/logo.jpg" alt="Logo de Mi Sitio Web" class="logo">
+            </div>
+            <div>
+                <ul>wtyhgfeqge
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nosotros.html">Acerca de</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="guardados.html">Contacto</a></li>
+                    <li><a href="registrarse.html">Registrate</a></li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+
+    <section class="hero">
+
+        <p>Servicio de Investigación y Desarrollo en el área de Sistemas para empresas e instituciones públicas y privadas..</p>
+        <a href="#" class="btn">Más información</a>
+    </section>
+
+    <section class="features">
+        <div class="feature">
+            <div class="feature-image">
+                <img src="img/tpmitad.png" alt="Logo de Mi Sitio Web" class="feature-img zoom-image">
+            </div>
+            <div class="feature-details">
+                <h2>Taller de Programación intermedia con Python</h2>
+                <ul>
+                    <li>Ambiente o entornos virtuales</li>
+                    <li>Funciones de Python</li>
+                    <li>Programación orientada a objetos</li>
+                    <li>Excepciones en Python</li>
+                    <li>Módulos con Python</li>
+                    <li>Paquetes</li>
+                    <li>Y más...</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-image">
+                <img src="img/bipwbimitad.png" alt="Logo de Mi Sitio Web" class="feature-img zoom-image">
+            </div>
+            <div class="feature-details">
+                <h2>Business intelligence con power bi</h2>
+                <ul>
+                    <li>Instalacion Power Bi</li>
+                    <li>Omportacion de datos excel</li>
+                    <li>Transformacion y preparado de datos</li>
+                    <li>Modelado de datos</li>
+                    <li>Visualizacion con graficos</li>
+                    <li>Cambio de tamas en el Dashboard</li>
+                    <li>Configuracion de graficos y tablas</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="feature">
+            <div class="feature-image">
+                <img src="img/spssmitad.png" alt="Logo de Mi Sitio Web" class="feature-img zoom-image">
+            </div>
+            <div class="feature-details">
+                <h2>Introduccion a spss</h2>
+                <ul>
+                    <li>Herramientas de SPSS</li>
+                    <li>Transformacion de datos</li>
+                    <li>Analisis estadistico</li>
+                    <li>Graficos</li>
+                    <li>Correlacion</li>
+                    <li>Intervalos de confianza</li>
+                    <li>Ejercicios</li>
+                </ul>
+            </div>
+        </div>
+    
+        <!-- Puedes repetir estos bloques .feature para agregar más características -->
+    </section>
+    
+
+    <section class="cta">
+        <h2>¡Únete a Nosotros Hoy!</h2>
+        <p>Regístrate para obtener acceso exclusivo y beneficios especiales.</p>
+        <a href="registrarse.html" class="btn" target="_blank">Regístrate</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Tu Empresa. Todos los derechos reservados.</p>
+    </footer>
+<script>
+    // Selecciona todas las imágenes con la clase .zoom-image
+const zoomImages = document.querySelectorAll('.zoom-image');
+
+// Agrega el evento de mouseover a cada imagen
+zoomImages.forEach(image => {
+  image.addEventListener('mouseover', () => {
+    // Cuando el cursor pasa sobre la imagen, aplica el efecto de zoom
+    image.style.transform = 'scale(1.2)'; // Puedes ajustar el valor según el grado de zoom deseado
+  });
+
+  // Agrega el evento de mouseout para restablecer el zoom
+  image.addEventListener('mouseout', () => {
+    // Cuando el cursor sale de la imagen, restaura el tamaño original
+    image.style.transform = 'scale(1)';
+  });
+});
+
+</script>
+</body>
+</html>
+
